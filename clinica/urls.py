@@ -23,5 +23,6 @@ urlpatterns = [
     path('core/', include('core.urls')),
     path('homepage/', include('homepage.urls')),
     path('usuario/', views.eco),
+    path('alumno/', views.alumnos),
 
 ]
