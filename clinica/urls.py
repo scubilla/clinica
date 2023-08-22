@@ -22,7 +22,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('core/', include('core.urls')),
     path('homepage/', include('homepage.urls')),
-    path('usuario/', views.eco),
-    path('alumno/', views.alumnos),
-
+    path('juguetes/', views.juguetes),
+    path('zapatos/', views.zapatos),
+    path('jardineria/', views.jardineria),
+    path('', views.categoria),
 ]
+
+# path('usuario/', views.eco),
+#     path('alumno/', views.alumnos),
+# path('alumno/', views.alumnos),
